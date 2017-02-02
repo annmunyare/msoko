@@ -11,18 +11,32 @@
 <div class="container">
   {{outlet}}
 </div> -->
+<div class="container">
 <header>
   {{#paper-toolbar}}
   <div class="md-toolbar-tools">
-    {{#link-to 'index' id="title"}}{{#paper-button}}Msoko{{/paper-button}}{{/link-to}}<span class="basket">{{#link-to 'shopping-cart' class="basket"}}<i class="shopping basket icon"></i>{{/link-to}}</span>
+    {{#link-to 'landing' id="title"}}{{#paper-button}}Msoko{{/paper-button}}{{/link-to}}<span class="basket">{{#link-to 'shopping-cart' class="basket"}}<i class="shopping basket icon"></i>{{/link-to}}</span>
     {{#link-to 'index'}}{{#paper-button}}Grocery{{/paper-button}}{{/link-to}}
     {{#link-to 'about'}}{{#paper-button}}About{{/paper-button}}{{/link-to}}
     {{#link-to 'contact'}}{{#paper-button}}Contact Us{{/paper-button}}{{/link-to}}
+
 
   </div>
 {{/paper-toolbar}}
 </header>
 
-<div class="container">
-  {{outlet}}
+
+
+
+
+<hr>
+    {{outlet}}
+  <hr>
+
+  <footer>
+    <center>
+
+     ©Msoko 2017
+   </center>
+   </footer>
 </div>

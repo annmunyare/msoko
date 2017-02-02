@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('seasonal', {path: '/seasonal'});
   this.route('about');
   this.route('contact');
+  this.route('landing');
 });
 
 export default Router;
