@@ -1,1 +1,69 @@
 @import 'ember-paper';
+@import 'ember-power-select';
+ body{
+  //  font-family: 'Marck Script', cursive;
+   letter-spacing: 4px;
+   font-size: 1.5em;
+  //  font-size: 24px;
+  font-family: 'Farsan', cursive;
+ }
+ h1 {
+   text-align: center;
+   font-family: 'Marck Script', cursive;
+   letter-spacing: 4px;
+  //  color: #fff;
+   font-size: 3em;
+ }
+ #title:hover, .basket:hover {
+   color: #666;
+ }
+ .basket:focus {
+   text-decoration: none;
+ }
+ .basket {
+   float: right;
+   font-size: 24px;
+
+ }
+ .trash, .no-btn {
+   background: transparent;
+   border: none;
+ }
+ .cart-btn {
+   background-color: #000;
+   border: 1px solid #000;
+   color: #fff;
+   width: 75%;
+   padding: 7px 10px;
+ }
+ .cart-btn:hover {
+   border: 1px solid #000;
+   background-color: #000;
+   color: #fff;
+ }
+ .checkout-btn {
+   background-color: #000099;
+   border: 1px solid #000;
+   color: #fff;
+   width: 25%;
+   padding: 7px 10px;
+   margin-top: -10px;
+   margin-left: -7px;
+ }
+ .checkout-btn:hover {
+   border: 1px solid #666;
+   background-color: #666;
+   color: #fff;
+ }
+
+ .product-reviews {
+   margin-top: 50px;
+  padding-left: 50px;
+   font-size: 16px;
+
+ }
+
+ footer {
+   text-align: center;
+   margin-bottom: 10px;
+ }
